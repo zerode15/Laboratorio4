@@ -1,1 +1,2 @@
 Data Governance
+Data Quality
