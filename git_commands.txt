@@ -1,0 +1,297 @@
+    1  git version
+    2  git config --global zerode15
+    3  git config --global jean1
+    4  git config --global Jeancarlos Z.
+    5  git config --global jesus_zambrano
+    6  git config --global jesus.zambrano
+    7  git config --global user.email jesus_zambrano@tecsu.edu.ec
+    8  git init
+    9  ll
+   10  ls -la
+   11  git status
+   12  ls
+   13  mv README.md.txt README.md
+   14  ls
+   15  git add .
+   16  git status
+   17  git commit -m "First commit"
+   18  ls
+   19  mv pipeline.txt pipeline.py
+   20  ls
+   21  echo
+   22  ls
+   23  mv init.txt init.py
+   24  ls
+   25  mv start.txt start.sh
+   26  ls
+   27  ll
+   28  git config --global jesus.zambrano
+   29  git config --global user.email jesus_zambrano@tecsu.edu.ec
+   30  git init
+   31  clear
+   32  ls
+   33  git commit -m "Commit Data Governance"
+   34  clear
+   35  ls
+   36  git add .
+   37  git commit -m "Commit Data Governance"
+   38  clear
+   39  ls
+   40  echo "Data Governance" >> requirements.txt
+   41  git add .
+   42  git commit -m "Commit Data Governance"
+   43  clear
+   44  ls
+   45  echo "Data Governance Team" >> start.sh
+   46  git add .
+   47  git commit -m "Commit Data Governance"
+   48  clear
+   49  mkdir credential
+   50  cd credentials/
+   51  clear
+   52  mkdir credentials
+   53  cd credentials/
+   54  touch passwords.txt
+   55  git add .
+   56  git commit -m "Archivo .gitignored
+   57  passwords
+   58  *.pdf
+   59  clear
+   60  passwords.txt [3~
+   61  quit
+   62  ls -la
+   63  ls
+   64  mv requirements.txt.txt requirements.txt
+   65  mv start.sh.txt start.sh
+   66  mv init.py.txt init.py
+   67  ls
+   68  git add .
+   69  git status
+   70  git commit -m "DS Team"
+   71  ls
+   72  mv script.txt script.py
+   73  ls
+   74  clear
+   75  ls
+   76  echo import pandas as pd >> script.py
+   77  clear
+   78  ls
+   79  echo pip3 install pandas >> requeriments.txt
+   80  git add .
+   81  git status
+   82  git commit -m "aprendiendo a deshacer"
+   83  clear
+   84  echo import pandas as p >> script.py
+   85  git add .
+   86  clear
+   87  git add script.py
+   88  git add .
+   89  clear
+   90  git add .
+   91  clear
+   92  git reset HEAD script.py
+   93  git checkout -- script.py
+   94  ls
+   95  echo Jesus Zambrano >> init.py
+   96  git add .
+   97  git reset HEAD init.py
+   98  clear
+   99  git commit -m "Commit Data Governance"
+  100  ls
+  101  echo Juan Perez, Maria Rojas >> employees.txt
+  102  git add .
+  103  git status
+  104  clear
+  105  ls
+  106  git commit -m "Cambios guardados"
+  107  clear
+  108  git branch rrhh
+  109  git checkout -b rrhh
+  110  clear
+  111  ls
+  112  echo Jorge Ramirez >> employees.txt
+  113  clear
+  114  ls
+  115  echo , Jorge Ramirez >> employees.txt 
+  116  git commit -m "Cambios realizados"
+  117  clear
+  118  git checkout master
+  119  git diff master rrhh
+  120  clear
+  121  git diff master rrhh
+  122  git checkout master
+  123  git diff master rrhh
+  124  clear
+  125  git checkout master
+  126  git diff master rrhh
+  127  clear
+  128  git merge master rrhh
+  129  all text
+  130  alt text
+  131  clear
+  132  git checkout -b RrHh
+  133  git checkout -b rrhh
+  134  git checkout -b recurso
+  135  clear
+  136  ls
+  137  echo Juan Perez, Maria Rojas, Jorge Ramirez >> employees.txt
+  138  git commit -m "Cambios realizados"
+  139  clear
+  140  git checkout master
+  141  git diff master recurso
+  142  git merge master recurso
+  143  git init
+  144  ls
+  145  git add .
+  146  ls
+  147  clear
+  148  ls
+  149  git status
+  150  clear
+  151  git commit -m "Area de desarrollo"
+  152  clear
+  153  ls
+  154  echo auditoria >> Area 1.txt
+  155  clear
+  156  ls
+  157  echo software >> Area 2.txt
+  158  clear
+  159  git checkout -b area desarrollo
+  160  clear
+  161  git checkout -b AreaDesarrollo
+  162  clear
+  163  ls
+  164  git commit -m "Area de desarrollo"
+  165  clear
+  166  ls
+  167  echo Auditoria de software >> Area 1.txt
+  168  echo Auditoria de software2 >> Area 2.txt
+  169  clear
+  170  git commit -m "Area de desarrollo cambios"
+  171  clear
+  172  git add .
+  173  git commit -m "Area de desarrollo cambios"
+  174  clear
+  175  git commit -m "Area de desarrollo cambios"
+  176  git checkout master
+  177  git diff master AreaDesarrollo
+  178  git merge master AreaDesarrollo
+  179  git branch Resource
+  180  git checkout -b Resource
+  181  git branch AreaRecurso
+  182  git checkout -b AreaRecurso
+  183  clear
+  184  git branch recurso
+  185  git init
+  186  clear
+  187  ls
+  188  echo Juan Perez, Maria Rojas >> employes.txt
+  189  git commit -m "Guardar"
+  190  git add .
+  191  clear
+  192  git commit -m "Guardar"
+  193  git checkout -b Recursos
+  194  echo Juan Perez, Maria Rojas, Jorge Ramirez >> employes.txt
+  195  git add .
+  196  git commit -m "Guardar cambios"
+  197  git checkout master
+  198  git diff master Recursos
+  199  git merge master Recursos
+  200  git clone ../template
+  201  git clone https://github.com/LightTable/LightTable.git
+  202  git remote
+  203  git remote add origin 
+  204  clear
+  205  git remote
+  206  git remote add origin 
+  207  git remote -v
+  208  clear
+  209  git clone https://github.com/zerode15/Auditoria_Jesus.git
+  210  git clone https://github.com/zerode15/AU_Jesus.git
+  211  git add .
+  212  ls
+  213  echo hello >> jesus.txt
+  214  git add .
+  215  git commit -m "primer commit"
+  216  git push origin main
+  217  git push origin main
+  218  git push origin main
+  219  git commit "Commit Data Quality"
+  220  clear
+  221  git add.
+  222  clear
+  223  git add .
+  224  git commit "Commit Data Quality"
+  225  clear
+  226  git commit -m "Commit Data Quality"
+  227  ls
+  228  echo "Data Quality" >> requirements.txt
+  229  git add .
+  230  git commit -m "Commit Data Quality"
+  231  echo Jesus Zambrano >> init.py
+  232  git add .
+  233  git commit -m "Commit Data Quality"
+  234  git reset HEAD init.py
+  235  git add .
+  236  git log
+  237  it
+  238  git checkout d915e3e0a18f9a7921850662c1530dfc822980e1
+  239  git branch dev
+  240  git branch qa
+  241  clear
+  242  git checkout -b dev
+  243  git branch -a
+  244  git checkout dev
+  245  toach stackeholders.txt
+  246  touch stackeholders.txt
+  247  nano stackeholders.txt
+  248  git checkout qa
+  249  touch rules.txt
+  250  nano rules.txt
+  251  git merge qa dev -m "Merge 1"
+  252  git checkout master
+  253  git merge master qa -m "Merge 2"
+  254  git branch -a
+  255  git remote add origin
+  256  git remote add origin https://github.com/zerode15/AU_Jesus.git
+  257  git push origin master
+  258  git remote add origin https://github.com/zerode15/Laboratorio4.git
+  259  git remote add original https://github.com/zerode15/Laboratorio4.git
+  260  git push original master
+  261  git remote rm origin
+  262  git remote add origin https://github.com/zerode15/Laboratorio4.git
+  263  git push origin master
+  264  git push origin master
+  265  git remote rm origin
+  266  git checkout dev
+  267  git add .
+  268  git commit -m "Commit Data Quality"
+  269  git checkout qa
+  270  git add .
+  271  git commit -m "Commit Data Quality"
+  272  git checkout master
+  273  git add .
+  274  git commit -m "Commit Data Quality"
+  275  git push origin master https://github.com/zerode15/Laboratorio4.git
+  276  git push origin master
+  277  git remote -v
+  278  git status
+  279  ls
+  280  git checkout qa
+  281  ls
+  282  git checkout master
+  283  touch stackeholders.txt
+  284  nano stackeholders.txt
+  285  touch rules.txt
+  286  nano rules.txt
+  287  git commit -m "Commit Data Quality"
+  288  git add .
+  289  git commit -m "Commit Data Quality"
+  290  git push origin master
+  291  git remote rm origin
+  292  git remote rm origin master
+  293  git remote add origin
+  294  git remote add origin https://github.com/zerode15/Laboratorio4.git
+  295  git push origin master
+  296  git push -f origin master
+  297  history >> git_commands.txt
